@@ -8,8 +8,11 @@ public class Person implements Serializable {
 
 	private Integer id;
 	private String usuario;
+	private String nombre;
 	private String clave;
 	private String email;
+	private Restriccion restriccion;
+	private Categoria categoria;
 
 	public Person() {
 	}
@@ -46,4 +49,29 @@ public class Person implements Serializable {
 		this.email = email;
 	}
 
+	public Restriccion getRestriccion() {
+		return restriccion;
+	}
+
+	public void setRestriccion(Restriccion restriccion) {
+		this.restriccion = restriccion;
+	}
+
+	public Categoria getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	
 }
