@@ -20,7 +20,10 @@ public class PersonBean implements Serializable {
 	
 	private String nombre = null;
 	private String usuario = null;
-	priva
+	private String clave = null;
+	private String email = null;
+	private Restriccion restriccion = null;
+	private Categoria categoria = null;
 	
 	PersonService service;
 	
