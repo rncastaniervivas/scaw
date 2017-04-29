@@ -18,7 +18,7 @@ public class PersonBean implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	
-	private String nombre = null;
+	private String persona = null;
 	private String usuario = null;
 	private String clave = null;
 	private String email = null;
